@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bảng giá gia sư Tiếng Anh online 1:1</title>
+  <meta name="description" content="Bảng giá gia sư Tiếng Anh online 1:1: giáo viên Philippines 38k, bản ngữ 85k, Anh Mỹ Canada 190k cho 30 phút.">
+  <style>
+    :root {
+      --ink: #18212f;
+      --muted: #627085;
+      --line: #dce3ed;
+      --soft: #f3f7fb;
+      --blue: #0f70d7;
+      --green: #0f9f6e;
+      --shadow: 0 18px 50px rgba(15, 43, 76, .12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: #fbfdff;
+      line-height: 1.5;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, .94);
+      backdrop-filter: blur(14px);
+    }
+    .nav {
+      width: min(1120px, calc(100% - 32px));
+      min-height: 64px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+    }
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 900;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .nav-cta,
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--green);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .page-hero {
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgba(9, 30, 55, .94), rgba(9, 65, 105, .72)),
+        url("https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80") center / cover;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .page-hero .container {
+      padding: 72px 0;
+    }
+    .eyebrow {
+      display: inline-flex;
+      min-height: 32px;
+      align-items: center;
+      padding: 0 12px;
+      border: 1px solid rgba(255, 255, 255, .38);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .12);
+      font-size: 14px;
+      font-weight: 800;
+    }
+    h1 {
+      max-width: 760px;
+      margin: 18px 0 12px;
+      font-size: clamp(38px, 6vw, 64px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 640px;
+      margin: 0;
+      color: #e7eef7;
+      font-size: 18px;
+    }
+
+    section { padding: 66px 0; }
+    .section-title {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.12;
+    }
+    .section-text {
+      max-width: 670px;
+      margin: 0 0 28px;
+      color: var(--muted);
+    }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .price-card,
+    .note-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 10px 28px rgba(15, 43, 76, .07);
+    }
+    .price-card {
+      padding: 24px;
+    }
+    .price-card.featured {
+      border-color: rgba(15, 112, 215, .45);
+      box-shadow: var(--shadow);
+    }
+    .price-label {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border-radius: 999px;
+      color: #0a4d9b;
+      background: var(--soft);
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .price-card h2 {
+      margin: 16px 0 8px;
+      font-size: 24px;
+    }
+    .price {
+      margin: 0 0 16px;
+      color: var(--blue);
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 900;
+    }
+    .price small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    ul {
+      padding: 0;
+      margin: 16px 0 0;
+      list-style: none;
+      color: var(--muted);
+    }
+    li {
+      display: flex;
+      gap: 8px;
+      margin: 10px 0;
+    }
+    li::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 900;
+    }
+    .notes {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .note-card {
+      padding: 20px;
+    }
+    .note-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .note-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+    .cta {
+      color: #fff;
+      background: linear-gradient(100deg, #102c50, #0f70d7);
+    }
+    .cta .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .cta h2 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+    }
+    .cta p {
+      margin: 0;
+      color: #dbeaff;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn.secondary {
+      background: rgba(255, 255, 255, .16);
+      border: 1px solid rgba(255, 255, 255, .36);
+    }
+    .floating-contact {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 20;
+      display: flex;
+      gap: 10px;
+    }
+    .float-btn {
+      min-width: 54px;
+      min-height: 54px;
+      padding: 0 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      color: #fff;
+      box-shadow: 0 12px 34px rgba(16, 36, 62, .24);
+      font-weight: 900;
+    }
+    .float-call { background: var(--green); }
+    .float-zalo { background: var(--blue); }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .pricing-grid,
+      .notes { grid-template-columns: 1fr; }
+      .cta .container { display: block; }
+      .actions { margin-top: 18px; }
+    }
+    @media (max-width: 640px) {
+      .nav { width: min(100% - 24px, 1120px); }
+      .brand span:last-child { max-width: 160px; line-height: 1.15; }
+      .nav-cta { min-height: 38px; padding: 0 10px; font-size: 13px; }
+      .container { width: min(100% - 24px, 1120px); }
+      .page-hero .container { padding: 52px 0; }
+      section { padding: 52px 0; }
+      .btn { width: 100%; }
+      .floating-contact {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+      }
+      .float-btn { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Điều hướng chính">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">E</span>
+        <span>English 1:1 Online</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Trang chủ</a>
+        <a href="bang-gia.html">Bảng giá</a>
+        <a href="gia-su.html">Xem gia sư</a>
+      </div>
+      <a class="nav-cta" href="tel:0989983484">Gọi 0989983484</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Bảng giá học 1:1</span>
+        <h1>Chọn mức học phí đúng ngân sách, vẫn được học riêng với gia sư.</h1>
+        <p class="lead">Các gói học ngắn hạn 10 - 20 buổi, mỗi buổi 30 phút. Học viên tự chọn giờ học và có thể xem hồ sơ gia sư trước khi đăng ký.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">3 phân khúc giá rõ ràng</h2>
+        <p class="section-text">Mỗi phân khúc phù hợp với một nhu cầu khác nhau: luyện phản xạ tiết kiệm, học với giáo viên bản ngữ, hoặc ưu tiên accent Anh, Mỹ, Canada.</p>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span class="price-label">Tiết kiệm</span>
+            <h2>Giáo viên Philippines</h2>
+            <p class="price">38k <small>/ 30 phút</small></p>
+            <ul>
+              <li>Phù hợp người mới bắt đầu và trẻ em.</li>
+              <li>Luyện giao tiếp hằng ngày với chi phí nhẹ.</li>
+              <li>Dễ duy trì lịch học đều trong tuần.</li>
+              <li>Gợi ý gói: 10 hoặc 20 buổi.</li>
+            </ul>
+          </article>
+
+          <article class="price-card featured">
+            <span class="price-label">Phổ biến</span>
+            <h2>Giáo viên bản ngữ</h2>
+            <p class="price">85k <small>/ 30 phút</small></p>
+            <ul>
+              <li>Luyện nghe nói với phát âm tự nhiên.</li>
+              <li>Có CV và chứng chỉ TEFL/TESOL rõ ràng.</li>
+              <li>Xem video intro trước khi chọn giáo viên.</li>
+              <li>Phù hợp nâng phản xạ và sự tự tin.</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <span class="price-label">Premium</span>
+            <h2>Giáo viên Anh, Mỹ, Canada</h2>
+            <p class="price">190k <small>/ 30 phút</small></p>
+            <ul>
+              <li>Ưu tiên accent Anh, Mỹ hoặc Canada.</li>
+              <li>Phù hợp phỏng vấn, thuyết trình, học thuật.</li>
+              <li>Lộ trình cá nhân hóa theo mục tiêu.</li>
+              <li>Phù hợp học viên cần chuẩn giọng cao hơn.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="notes">
+          <article class="note-card">
+            <h3>Không ép khóa dài</h3>
+            <p>Học viên chọn khóa ngắn hạn 10 - 20 buổi để kiểm tra độ phù hợp trước khi học tiếp.</p>
+          </article>
+          <article class="note-card">
+            <h3>Tự chọn giờ học</h3>
+            <p>Sắp lịch theo khung giờ rảnh, phù hợp phụ huynh bận hoặc người đi làm.</p>
+          </article>
+          <article class="note-card">
+            <h3>Xem gia sư trước</h3>
+            <p>Trước khi chốt, khách có thể xem CV, chứng chỉ, kinh nghiệm và video intro.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div>
+          <h2>Muốn được tư vấn gói phù hợp?</h2>
+          <p>Gửi độ tuổi, trình độ và mục tiêu học để được gợi ý giáo viên phù hợp.</p>
+        </div>
+        <div class="actions">
+          <a class="btn" href="https://zalo.me/0989983484">Chat Zalo</a>
+          <a class="btn secondary" href="gia-su.html">Xem gia sư</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating-contact" aria-label="Liên hệ nhanh">
+    <a class="float-btn float-call" href="tel:0989983484">Gọi</a>
+    <a class="float-btn float-zalo" href="https://zalo.me/0989983484">Zalo</a>
+  </div>
+</body>
+</html>
