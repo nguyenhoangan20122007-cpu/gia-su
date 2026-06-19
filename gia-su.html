@@ -3,29 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Danh sách gia sư Tiếng Anh online 1:1</title>
-  <meta name="description" content="Xem danh sách gia sư Tiếng Anh online 1:1, lọc theo quốc tịch, xem CV, chứng chỉ TEFL/TESOL và video intro.">
+  <title>Danh sách gia sư Tiếng Anh online 1 kèm 1 | Hoang An Family English</title>
+  <meta name="description" content="Danh sách gia sư Tiếng Anh online 1 kèm 1 chất lượng cao. Lọc gia sư theo quốc tịch (Philippines, bản ngữ, Anh, Mỹ, Canada), xem CV, bằng cấp TEFL/TESOL và video intro giọng nói.">
+  <meta name="keywords" content="gia sư tiếng anh giao tiếp, danh sách gia sư tiếng anh online, giáo viên bản ngữ dạy tiếng anh, hoang an family english, tìm gia sư tiếng anh">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Danh sách gia sư Tiếng Anh online 1 kèm 1 | Hoang An Family English">
+  <meta property="og:description" content="Danh sách gia sư Tiếng Anh online 1 kèm 1 chất lượng cao. Lọc gia sư theo quốc tịch, xem CV và nghe giọng nói trước khi học.">
+  <meta property="og:image" content="assets/logo.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Danh sách gia sư Tiếng Anh online 1 kèm 1 | Hoang An Family English">
+  <meta property="twitter:description" content="Danh sách gia sư Tiếng Anh online 1 kèm 1 chất lượng cao. Lọc gia sư theo quốc tịch, xem CV và nghe giọng nói trước khi học.">
+  <meta property="twitter:image" content="assets/logo.png">
+
+  <!-- Favicon / Icon Link -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  
+  <!-- Google Fonts - Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <style>
     :root {
-      --ink: #18212f;
-      --muted: #627085;
-      --line: #dce3ed;
-      --soft: #f3f7fb;
-      --blue: #0f70d7;
-      --blue-dark: #0a4d9b;
-      --green: #0f9f6e;
-      --shadow: 0 18px 50px rgba(15, 43, 76, .12);
+      --ink: #0f172a; /* Slate 900 */
+      --muted: #475569; /* Slate 600 */
+      --line: #e2e8f0; /* Slate 200 */
+      --soft: #f8fafc; /* Slate 50 */
+      --blue: #2563eb; /* Blue 600 */
+      --blue-dark: #1d4ed8; /* Blue 700 */
+      --blue-light: #eff6ff; /* Blue 50 */
+      --green: #10b981; /* Emerald 500 */
+      --red: #ef4444;
+      --white: #ffffff;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.08);
+      --shadow-lg: 0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.12);
+      --radius-sm: 6px;
+      --radius: 12px;
+      --radius-lg: 16px;
     }
 
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       color: var(--ink);
-      background: #fbfdff;
-      line-height: 1.5;
+      background: #f8fafc;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
-    a { color: inherit; text-decoration: none; }
+    a { color: inherit; text-decoration: none; transition: all 0.2s ease; }
     button { font: inherit; }
 
     .topbar {
@@ -33,40 +68,57 @@
       top: 0;
       z-index: 20;
       border-bottom: 1px solid var(--line);
-      background: rgba(255, 255, 255, .94);
-      backdrop-filter: blur(14px);
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
     }
     .nav {
       width: min(1120px, calc(100% - 32px));
-      min-height: 64px;
+      min-height: 70px;
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 18px;
+      gap: 16px;
     }
     .brand {
       display: flex;
       align-items: center;
       gap: 10px;
       font-weight: 800;
+      font-size: 17px;
     }
-    .brand-mark {
-      width: 36px;
-      height: 36px;
-      display: grid;
-      place-items: center;
-      border-radius: 8px;
-      color: #fff;
-      background: var(--blue);
-      font-weight: 900;
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: var(--radius-sm);
     }
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 18px;
+      gap: 24px;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 14.5px;
+      font-weight: 600;
+    }
+    .nav-links a:hover {
+      color: var(--blue);
+    }
+    .nav-links a.active {
+      color: var(--blue);
+      font-weight: 700;
+    }
+    .nav-links a.highlight-link {
+      color: var(--blue);
+      background: var(--blue-light);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .nav-links a.highlight-link:hover {
+      background: var(--blue);
+      color: var(--white);
     }
     .nav-cta,
     .btn {
@@ -74,18 +126,28 @@
       align-items: center;
       justify-content: center;
       min-height: 42px;
-      padding: 0 14px;
-      border-radius: 8px;
+      padding: 0 18px;
+      border-radius: var(--radius);
       color: #fff;
       background: var(--green);
-      font-weight: 800;
+      font-weight: 700;
       white-space: nowrap;
+      box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: 0;
+    }
+    .nav-cta:hover,
+    .btn:hover {
+      background: #059669;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(16, 185, 129, 0.3);
     }
 
     .page-hero {
       color: #fff;
       background:
-        linear-gradient(90deg, rgba(9, 30, 55, .94), rgba(9, 65, 105, .72)),
+        linear-gradient(90deg, rgba(8, 25, 53, 0.96) 0%, rgba(13, 52, 97, 0.88) 50%, rgba(15, 23, 42, 0.4) 100%),
         url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80") center / cover;
     }
     .container {
@@ -93,135 +155,157 @@
       margin: 0 auto;
     }
     .page-hero .container {
-      padding: 72px 0;
+      padding: 80px 0;
     }
     .eyebrow {
       display: inline-flex;
       min-height: 32px;
       align-items: center;
-      padding: 0 12px;
-      border: 1px solid rgba(255, 255, 255, .38);
+      padding: 0 16px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
       border-radius: 999px;
-      background: rgba(255, 255, 255, .12);
-      font-size: 14px;
-      font-weight: 800;
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #bfdbfe;
     }
     h1 {
-      max-width: 780px;
-      margin: 18px 0 12px;
-      font-size: clamp(38px, 6vw, 64px);
-      line-height: 1.05;
-      letter-spacing: 0;
+      max-width: 800px;
+      margin: 20px 0 16px;
+      font-size: clamp(34px, 5.5vw, 54px);
+      line-height: 1.15;
+      font-weight: 800;
+      letter-spacing: -0.02em;
     }
     .lead {
       max-width: 660px;
       margin: 0;
-      color: #e7eef7;
-      font-size: 18px;
+      color: #e2e8f0;
+      font-size: 17.5px;
+      line-height: 1.6;
     }
-    section { padding: 66px 0; }
+    section { padding: 80px 0; }
     .section-title {
       margin: 0 0 12px;
-      font-size: clamp(30px, 4vw, 44px);
-      line-height: 1.12;
+      font-size: clamp(28px, 3.5vw, 40px);
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: -0.01em;
     }
     .section-text {
       max-width: 710px;
-      margin: 0 0 26px;
+      margin: 0 0 32px;
       color: var(--muted);
+      font-size: 16px;
+      line-height: 1.6;
     }
 
     .filters {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-bottom: 22px;
+      margin-bottom: 28px;
     }
     .filter-btn {
       min-height: 42px;
-      padding: 0 14px;
+      padding: 0 20px;
       border: 1px solid var(--line);
       border-radius: 999px;
       color: var(--muted);
       background: #fff;
       cursor: pointer;
-      font-weight: 800;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--blue);
+      color: var(--blue);
     }
     .filter-btn.active {
       color: #fff;
       border-color: var(--blue);
       background: var(--blue);
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
     }
     .teachers-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
+      gap: 20px;
     }
     .teacher-card {
       overflow: hidden;
       border: 1px solid var(--line);
-      border-radius: 8px;
+      border-radius: var(--radius-lg);
       background: #fff;
-      box-shadow: 0 10px 28px rgba(15, 43, 76, .07);
+      box-shadow: var(--shadow);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .teacher-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
     }
     .teacher-photo {
       min-height: 210px;
       position: relative;
       display: flex;
       align-items: flex-end;
-      padding: 18px;
+      padding: 24px;
       color: #fff;
-      background: linear-gradient(135deg, #144a84, #23a094);
+      background: linear-gradient(135deg, #2563eb, #10b981);
     }
     .teacher-photo.native {
-      background: linear-gradient(135deg, #44546a, #8fb5ca);
+      background: linear-gradient(135deg, #1e293b, #475569);
     }
     .teacher-photo.premium {
-      background: linear-gradient(135deg, #1c3762, #d89b31);
+      background: linear-gradient(135deg, #0f172a, #f97316);
     }
     .avatar {
       position: absolute;
-      top: 18px;
-      left: 18px;
-      width: 84px;
-      height: 84px;
-      border: 4px solid rgba(255, 255, 255, .88);
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: 80px;
+      border: 3px solid rgba(255, 255, 255, 0.9);
       border-radius: 50%;
       display: grid;
       place-items: center;
-      background: rgba(255, 255, 255, .22);
+      background: rgba(255, 255, 255, 0.2);
       color: #fff;
-      font-size: 28px;
-      font-weight: 900;
+      font-size: 26px;
+      font-weight: 800;
+      box-shadow: var(--shadow);
     }
     .teacher-photo h2 {
       max-width: 100%;
       margin: 0;
-      font-size: 24px;
-      line-height: 1.15;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1.2;
     }
-    .teacher-body { padding: 18px; }
+    .teacher-body { padding: 24px; }
     .tags {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
     .tag {
       min-height: 26px;
       display: inline-flex;
       align-items: center;
-      padding: 0 9px;
+      padding: 0 10px;
       border-radius: 999px;
       color: var(--blue-dark);
-      background: var(--soft);
+      background: var(--blue-light);
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 700;
     }
     .teacher-body p {
-      margin: 0 0 14px;
+      margin: 0 0 20px;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 14.5px;
+      line-height: 1.6;
     }
     .teacher-actions {
       display: grid;
@@ -231,43 +315,61 @@
     .outline-btn,
     .solid-btn {
       min-height: 42px;
-      border-radius: 8px;
+      border-radius: var(--radius);
       cursor: pointer;
-      font-weight: 800;
+      font-weight: 700;
+      font-size: 14px;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
     .outline-btn {
       border: 1px solid var(--line);
       color: var(--ink);
       background: #fff;
     }
+    .outline-btn:hover {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: var(--blue-light);
+    }
     .solid-btn {
       border: 0;
       color: #fff;
       background: var(--blue);
     }
+    .solid-btn:hover {
+      background: var(--blue-dark);
+    }
 
     .floating-contact {
       position: fixed;
-      right: 18px;
-      bottom: 18px;
+      right: 20px;
+      bottom: 20px;
       z-index: 30;
       display: flex;
       gap: 10px;
     }
     .float-btn {
-      min-width: 54px;
-      min-height: 54px;
-      padding: 0 14px;
+      min-width: 56px;
+      min-height: 56px;
+      padding: 0 16px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       border-radius: 999px;
       color: #fff;
-      box-shadow: 0 12px 34px rgba(16, 36, 62, .24);
-      font-weight: 900;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.2);
+      font-weight: 800;
+      transition: all 0.2s ease;
     }
-    .float-call { background: var(--green); }
-    .float-zalo { background: var(--blue); }
+    .float-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.3);
+    }
+    .float-call { background: var(--red); }
+    .float-zalo { background: #0068ff; }
 
     .modal {
       position: fixed;
@@ -276,17 +378,23 @@
       display: none;
       align-items: center;
       justify-content: center;
-      padding: 18px;
-      background: rgba(8, 18, 32, .68);
+      padding: 24px;
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(8px);
     }
     .modal.open { display: flex; }
     .modal-panel {
       width: min(980px, 100%);
-      max-height: min(860px, calc(100vh - 36px));
+      max-height: min(860px, calc(100vh - 48px));
       overflow: auto;
-      border-radius: 8px;
+      border-radius: var(--radius-lg);
       background: #fff;
-      box-shadow: 0 30px 90px rgba(0, 0, 0, .28);
+      box-shadow: var(--shadow-lg);
+      animation: modalOpen 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes modalOpen {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
     }
     .modal-head {
       position: sticky;
@@ -296,115 +404,138 @@
       align-items: center;
       justify-content: space-between;
       gap: 16px;
-      padding: 18px;
+      padding: 20px 24px;
       border-bottom: 1px solid var(--line);
       background: #fff;
     }
     .modal-head h2 {
       margin: 0;
-      font-size: 24px;
-      line-height: 1.15;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.2;
     }
     .close-btn {
-      width: 42px;
-      height: 42px;
+      width: 40px;
+      height: 40px;
       border: 1px solid var(--line);
-      border-radius: 8px;
+      border-radius: var(--radius);
       background: #fff;
       cursor: pointer;
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1;
+      transition: all 0.2s ease;
+      display: grid;
+      place-items: center;
+    }
+    .close-btn:hover {
+      background: var(--soft);
+      border-color: var(--muted);
     }
     .modal-body {
       display: grid;
-      grid-template-columns: .9fr 1.1fr;
+      grid-template-columns: 0.9fr 1.1fr;
     }
     .cv-sidebar {
-      padding: 22px;
+      padding: 28px;
       border-right: 1px solid var(--line);
       background: var(--soft);
     }
-    .cv-main { padding: 22px; }
+    .cv-main { padding: 28px; }
     .cv-photo {
-      width: 104px;
-      height: 104px;
+      width: 90px;
+      height: 90px;
       border-radius: 50%;
       display: grid;
       place-items: center;
-      margin-bottom: 14px;
+      margin-bottom: 16px;
       color: #fff;
       background: var(--blue);
-      font-size: 34px;
-      font-weight: 900;
+      font-size: 30px;
+      font-weight: 800;
+      box-shadow: var(--shadow);
     }
     .cv-meta {
       display: grid;
       gap: 8px;
-      margin: 16px 0;
+      margin: 20px 0;
       color: var(--muted);
       font-size: 14px;
+      line-height: 1.5;
     }
-    .cv-block { margin-top: 22px; }
+    .cv-block { margin-top: 24px; }
     .cv-block h3 {
-      margin: 0 0 10px;
+      margin: 0 0 12px;
       padding-bottom: 8px;
-      border-bottom: 1px solid #b9c5d2;
-      font-size: 18px;
-      letter-spacing: .02em;
+      border-bottom: 1px solid #cbd5e1;
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
+      color: var(--ink);
     }
     .cv-list {
       padding: 0;
-      margin: 16px 0 0;
+      margin: 20px 0 0;
       list-style: none;
       color: var(--muted);
+      font-size: 14.5px;
     }
     .cv-list li {
       display: flex;
-      gap: 8px;
-      margin: 9px 0;
+      gap: 10px;
+      margin: 12px 0;
+      line-height: 1.5;
     }
     .cv-list li::before {
       content: "✓";
       color: var(--green);
-      font-weight: 900;
+      font-weight: 800;
     }
     .video-box {
       margin-top: 16px;
       border: 1px solid var(--line);
-      border-radius: 8px;
+      border-radius: var(--radius);
       overflow: hidden;
-      background: #081220;
+      background: #0f172a;
+      box-shadow: var(--shadow);
     }
     .video-placeholder {
-      min-height: 210px;
+      min-height: 220px;
       display: grid;
       place-items: center;
-      padding: 22px;
+      padding: 24px;
       color: #fff;
       text-align: center;
       background:
-        linear-gradient(rgba(8, 18, 32, .76), rgba(8, 18, 32, .76)),
+        linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)),
         url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80") center / cover;
     }
     .play {
-      width: 72px;
-      height: 72px;
+      width: 60px;
+      height: 60px;
       display: grid;
       place-items: center;
       margin: 0 auto 12px;
       border-radius: 50%;
       background: var(--green);
-      font-size: 30px;
+      font-size: 24px;
       line-height: 1;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 10px rgba(16, 185, 129, 0.4);
+    }
+    .play:hover {
+      transform: scale(1.1);
+      background: #059669;
     }
     .cv-image {
       width: 100%;
       display: block;
       margin-top: 16px;
       border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #fff;
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
     }
 
     @media (max-width: 900px) {
@@ -419,10 +550,10 @@
     @media (max-width: 640px) {
       .nav { width: min(100% - 24px, 1120px); }
       .brand span:last-child { max-width: 160px; line-height: 1.15; }
-      .nav-cta { min-height: 38px; padding: 0 10px; font-size: 13px; }
+      .nav-cta { min-height: 38px; padding: 0 12px; font-size: 13px; }
       .container { width: min(100% - 24px, 1120px); }
-      .page-hero .container { padding: 52px 0; }
-      section { padding: 52px 0; }
+      .page-hero .container { padding: 48px 0; }
+      section { padding: 48px 0; }
       .teachers-grid,
       .teacher-actions { grid-template-columns: 1fr; }
       .floating-contact {
@@ -431,11 +562,11 @@
         bottom: 12px;
       }
       .float-btn { flex: 1; }
-      .modal { padding: 10px; }
-      .modal-panel { max-height: calc(100vh - 20px); }
+      .modal { padding: 12px; }
+      .modal-panel { max-height: calc(100vh - 24px); }
       .modal-head,
       .cv-sidebar,
-      .cv-main { padding: 16px; }
+      .cv-main { padding: 20px; }
     }
   </style>
 </head>
@@ -443,13 +574,14 @@
   <header class="topbar">
     <nav class="nav" aria-label="Điều hướng chính">
       <a class="brand" href="index.html">
-        <span class="brand-mark">E</span>
-        <span>English 1:1 Online</span>
+        <img class="brand-logo" src="assets/logo.png" alt="Hoang An Family English Logo">
+        <span>Hoang An Family English</span>
       </a>
       <div class="nav-links">
         <a href="index.html">Trang chủ</a>
+        <a href="gia-su.html" class="active">Gia sư</a>
         <a href="bang-gia.html">Bảng giá</a>
-        <a href="gia-su.html">Xem gia sư</a>
+        <a href="phat-am.html" class="highlight-link">Ví dụ Phát âm</a>
       </div>
       <a class="nav-cta" href="tel:0989983484">Gọi 0989983484</a>
     </nav>
@@ -536,85 +668,9 @@
           "Passion for early childhood development",
           "Quick to learn new digital tools"
         ],
-        intro: "Video intro mẫu: bấm để mở khung giới thiệu giọng và phong cách dạy của cô Beverley.",
+        intro: "Bấm nút bên dưới để mở trang ví dụ phát âm thực tế của giáo viên Hoang An Family English.",
         cvImage: "assets/beverley-cv.png",
         cardStyle: "native"
-      },
-      {
-        id: "maria-santos",
-        name: "Maria Santos",
-        initials: "MS",
-        nationality: "Philippines",
-        group: "Giáo viên Phil",
-        price: "38k / 30 phút",
-        accent: "Filipino English",
-        certificate: "TEFL for Young Learners",
-        education: ["Bachelor of Secondary Education - English"],
-        languages: ["English", "Tagalog"],
-        summary: "Energetic online tutor focused on daily conversation, vocabulary practice and confidence building for young learners and beginners.",
-        experience: ["3 years online ESL tutoring", "Conversation classes for children", "Beginner grammar and pronunciation support"],
-        skills: ["Friendly classroom style", "Kids engagement", "Vocabulary games", "Simple correction"],
-        strengths: ["Patient with beginners", "Clear lesson routines", "Positive feedback"],
-        intro: "Video intro mẫu cho giáo viên Philippines.",
-        cvImage: "",
-        cardStyle: ""
-      },
-      {
-        id: "james-wilson",
-        name: "James Wilson",
-        initials: "JW",
-        nationality: "United Kingdom",
-        group: "Anh, Mỹ, Canada",
-        price: "190k / 30 phút",
-        accent: "British English",
-        certificate: "CELTA, TESOL",
-        education: ["BA English Language and Communication"],
-        languages: ["English"],
-        summary: "British tutor for pronunciation, interview practice and confident speaking. Lessons are goal-based and suitable for intermediate learners upward.",
-        experience: ["5 years ESL coaching", "Business English and interview practice", "Pronunciation and fluency coaching"],
-        skills: ["British pronunciation", "Interview role-play", "Presentation coaching", "Error correction"],
-        strengths: ["Structured feedback", "Professional learning plan", "Clear speaking model"],
-        intro: "Video intro mẫu cho giáo viên Anh.",
-        cvImage: "",
-        cardStyle: "premium"
-      },
-      {
-        id: "emma-clarke",
-        name: "Emma Clarke",
-        initials: "EC",
-        nationality: "Canada",
-        group: "Anh, Mỹ, Canada",
-        price: "190k / 30 phút",
-        accent: "Canadian English",
-        certificate: "TEFL, IELTS Speaking Coach",
-        education: ["BA Linguistics"],
-        languages: ["English", "French"],
-        summary: "Canadian tutor specializing in natural speaking, IELTS style answers and pronunciation clarity for teens and adults.",
-        experience: ["4 years teaching online", "IELTS speaking practice", "Teen and adult conversation courses"],
-        skills: ["Speaking fluency", "Pronunciation clarity", "IELTS-style feedback", "Confidence building"],
-        strengths: ["Gentle correction", "Personalized topics", "Clear homework"],
-        intro: "Video intro mẫu cho giáo viên Canada.",
-        cvImage: "",
-        cardStyle: "premium"
-      },
-      {
-        id: "sarah-miller",
-        name: "Sarah Miller",
-        initials: "SM",
-        nationality: "United States",
-        group: "Anh, Mỹ, Canada",
-        price: "190k / 30 phút",
-        accent: "American English",
-        certificate: "TESOL Certificate",
-        education: ["BA Education"],
-        languages: ["English"],
-        summary: "American tutor for natural conversation, school support and speaking confidence. Lessons are interactive and adapted to learner interests.",
-        experience: ["6 years English tutoring", "School English support", "Adult conversation classes"],
-        skills: ["American pronunciation", "Conversation prompts", "Reading support", "Homework review"],
-        strengths: ["Engaging lesson flow", "Strong rapport", "Goal tracking"],
-        intro: "Video intro mẫu cho giáo viên Mỹ.",
-        cvImage: "",
-        cardStyle: "premium"
       }
     ];
 
@@ -633,6 +689,11 @@
       const visibleTeachers = filter === "all"
         ? teachers
         : teachers.filter(teacher => teacher.nationality === filter || teacher.group === filter);
+
+      if (visibleTeachers.length === 0) {
+        teachersGrid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--muted); padding: 40px 0;">Không tìm thấy giáo viên nào phù hợp.</p>`;
+        return;
+      }
 
       teachersGrid.innerHTML = visibleTeachers.map(teacher => `
         <article class="teacher-card" data-nationality="${teacher.nationality}">
@@ -659,6 +720,11 @@
     function openTeacherModal(id, focusVideo = false) {
       const teacher = teachers.find(item => item.id === id);
       if (!teacher) return;
+
+      if (focusVideo) {
+        window.location.href = "phat-am.html";
+        return;
+      }
 
       modalTitle.textContent = teacher.name;
       modalBody.innerHTML = `
@@ -699,11 +765,11 @@
           <div class="cv-block" id="introBlock">
             <h3>Video Intro</h3>
             <div class="video-box">
-              <div class="video-placeholder">
+              <div class="video-placeholder" onclick="window.location.href='phat-am.html'">
                 <div>
                   <div class="play">▶</div>
                   <strong>${teacher.intro}</strong>
-                  <p style="margin:10px 0 0;color:#dbeaff">Có thể thay khung này bằng link YouTube, Google Drive hoặc video MP4 thật của giáo viên.</p>
+                  <p style="margin:10px 0 0;color:#bfdbfe">Click vào đây để sang trang nghe thử phát âm của giáo viên.</p>
                 </div>
               </div>
             </div>
@@ -719,13 +785,6 @@
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
       document.body.style.overflow = "hidden";
-
-      if (focusVideo) {
-        setTimeout(() => {
-          const introBlock = document.getElementById("introBlock");
-          if (introBlock) introBlock.scrollIntoView({ behavior: "smooth", block: "start" });
-        }, 80);
-      }
     }
 
     function closeTeacherModal() {
